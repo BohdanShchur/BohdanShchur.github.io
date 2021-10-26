@@ -149,8 +149,6 @@ nav a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(8px);
-    -webkit-filter: blur(5px);
 }
 
 .main_image img {

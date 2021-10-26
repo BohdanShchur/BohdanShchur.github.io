@@ -12,9 +12,6 @@ const burgerDropDown = () => {
     }
 }
 
-const addImageForm = () => {
-
-}
 
 const input = img.childNodes[1];
 burgerBtn.addEventListener('click', burgerDropDown);
