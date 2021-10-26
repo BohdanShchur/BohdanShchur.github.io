@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+    <link href="../styles.css" rel="stylesheet" />
+    <title>Usyk</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">Main</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Matches</button>
+                        <div class="dropdown-content">
+                            <a href="/pages/calendar.html">Calendar of matches</a>
+                            <a href="#">Next game</a>
+                            <a href="#">Ratings</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/pages/news.html">News</a>
+                </li>
+                <li>
+                    <a href="/pages/fans.html">Fans</a>
+                </li>
+                <li>
+                    <a href="/pages/contact.html">Contacts</a>
+                </li>
+                <li>
+                    <a href="/">Admin</a>
+                </li>
+            </ul>
+            <div class="logo">
+                <img src="../src/logo.png" />
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="container">
+        <h2>Add News</h2>
+            <form>
+                <div class="img-form">
+                    <img src="" alt="">
+                    <input type="file" name="image-form" id="image-form">
+                </div>
+                <div class="info-form">
+                    <div class="input-container">
+                        <input type="text" name="title" placeholder="News Title" />
+                        <textarea rows="12" cols="50">
+                        </textarea>
+                    </div>
+                    <div class="button-group">
+                        <button type="submit" class="form-button">
+                            Add news
+                        </button>
+                    </div>  
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>by Bohdan Shchur</p>
+            <p>2021</p>
+        </div>
+    </footer>
+</body>
+
+</html>
